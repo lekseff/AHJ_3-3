@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <title>Image Gallery</title>
+</head>
+<body>
+  <div class="container">
+    <div class="app" id="app">
+      <form class="form" id="form">
+        <label form__label-name>
+          Название:
+          <input class="form__name" type="text" name="name" id="name" required>
+        </label>
+        <label class="form__label-url">
+          Ссылка на изображение:
+          <input class="form__url" type="text" name="url" id="url" required>
+          <span class="form__error">Не верная ссылка</span>
+        </label>
+        <button class="form__button">Добавить</button>
+      </form>
+      <div class="view" id=view>
+        <!-- <div class="view__item">
+          <div class="view__item-images">
+            <img src="./img/bg2.jpg" alt="">
+          </div>
+          <p class="view__item-info">Lorem</p>
+          <button class="view__item-remove"></button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
